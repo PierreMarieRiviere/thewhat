@@ -1,5 +1,5 @@
 {
-  "name": "guarded-meadow",
+  "name": "mybot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ziltoid42/guarded-meadow.git"
+    "url": "git+https://github.com/devhaoy/thewhat.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ziltoid42/guarded-meadow/issues"
+    "url": "https://github.com/devhaoy/thewhat/issues"
   },
-  "homepage": "https://github.com/Ziltoid42/guarded-meadow#readme",
+  "homepage": "https://github.com/devhaoy/thewhat#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",

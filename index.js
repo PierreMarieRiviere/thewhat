@@ -25,7 +25,7 @@ app.use(bodyParser.json());
 
 // For facebook verification
 app.get('/webhook/', function (req, res) {
-  if (req.query['hub.verify_token'] === 'my_voice_is_my_password_verify_me') {
+  if (req.query['hub.verify_token'] === 'wutang') {
     res.send(req.query['hub.challenge']);
   } else {
     res.send('Error, wrong validation token');    
@@ -101,7 +101,7 @@ app.post('/webhook/', function (req, res) {
 })
 
    //token en clair?
-    const token ="EAANr7IiG6MUBAA9J6PO5FjYzaq5ZChmhs6XMe0Q8OfB9oUvC6fvcGkaPbWn922aNZAuy4kASZCMDLF4J7o0veVIXhX3qXLZAvU0RQSfLO82YQwWLdeDM1hb3Ap9q2W6tiJgbvqCshfsIvFe5ZC6dBACqGUxlX1ZCzukokMs4v6qAZDZD"
+    const token ="EAAVdL3N42JsBAO8kR0N0gvwP0rolaRZAkmsZBlmA2XthngjFBeL3V69XEmOkbJtEyX0sAg8ZByLGUo1CFp07ibRx9DZBANevoC9nZBfjNVZBCZAhJXymsRRSwKn2ZA3qynbRm4ljwH3sQA7ZCaAgnpvaR1cUeWPr1ompLhpovQOG50wZDZD"
 
 
     //fonction pour test
